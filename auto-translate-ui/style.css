@@ -1,0 +1,25 @@
+/* Toggle pill near modal close button */
+.autotrans-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+  margin-right: 8px;
+}
+.autotrans-toggle[data-state="off"] {
+  opacity: 0.6;
+}
+.autotrans-toggle .dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--interactive-accent);
+}
+.autotrans-toggle[data-state="off"] .dot { background: var(--text-muted); }
+
+/* Soft highlight when translated */
+[data-autotranslated="true"] { }

@@ -1,0 +1,10 @@
+{
+  "id": "auto-translate-ui",
+  "name": "Auto Translate Plugin UI",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Automatically translate Obsidian plugin settings/modal UI texts to Korean using Azure (default), Google, or DeepL. Includes per-plugin custom selectors, disk cache, and a modal toggle.",
+  "author": "LEE0",
+  "authorUrl": "",
+  "isDesktopOnly": true
+}
